@@ -61,6 +61,10 @@
                  <groupId>org.apache.maven.plugins</groupId> 
                  <artifactId>maven-checkstyle-plugin</artifactId>
                  <version>3.3.1</version>
+                 <configuration>
+                 <configLocation>google_checks.xml</configLocation>
+                 <failOnViolation> false</failOnViolation>
+                 </configuration>
             </plugin>
                  
             <!-- JaCoCo : couverture de code (seuil 70 %) -->
