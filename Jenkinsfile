@@ -16,9 +16,9 @@ pipeline {
                 bat 'mvn clean package -DskipTests'
             }
         }
-            stage ( ’ Lint ’) {
+            stage ( ’Lint’) {
                 steps {
-                    bat ’ mvn checkstyle : check ’
+                    bat ’mvn checkstyle : check’
                 }
             }
         
