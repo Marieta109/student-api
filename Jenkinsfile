@@ -20,7 +20,7 @@ pipeline {
                 steps {
                     bat 'mvn checkstyle:check'
                 }
-            },
+            }
         
         stage('Tests Unitaires') {
             steps {
